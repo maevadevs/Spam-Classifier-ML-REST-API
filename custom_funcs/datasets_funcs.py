@@ -25,8 +25,11 @@ def get_and_unpack_dataset(dataset_src_url, dataset_name):
         DATASETS_ZIP_DIR = os.path.join(DATASETS_DIR, "__archives__")
 
         # Create directories if needed
-        if not os.path.isdir(DATASETS_DIR): os.mkdir(DATASETS_DIR)
-        if not os.path.isdir(DATASETS_ZIP_DIR): os.mkdir(DATASETS_ZIP_DIR)
+        if not os.path.isdir(DATASETS_DIR): 
+            os.mkdir(DATASETS_DIR)
+            
+        if not os.path.isdir(DATASETS_ZIP_DIR): 
+            os.mkdir(DATASETS_ZIP_DIR)
 
         # Dataset name and target directory
         dataset_name = dataset_name.replace(" ", "_").lower()

@@ -2,11 +2,11 @@
 
 ## Dependencies
 
-Library | What is it
+Library | Purpose
 :-|:-
 Keras | Python Machine Learning library
 FastAPI | Python REST API Framework
-Cassandra DB | Database
+Cassandra DB | NoSQL Database
 Astra DB | Cloud-Service for Cassandra DB
 
 ## Reference Code
@@ -25,4 +25,4 @@ Astra DB | Cloud-Service for Cassandra DB
 - [SMS Spam Collection Data Set](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 - [YouTube Spam Collection Data Set](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection)
 
-Dataset handling can be done using the helper function `custom_funcs.datasets_funcs.get_and_unpack_dataset()`
+Dataset handling is done using the helper function `custom_funcs.datasets_funcs.get_and_unpack_dataset()`
