@@ -1,6 +1,6 @@
 # Spam Classifier ML REST API
 
-This is a Machine Learning project for building a custom Spam Classifier Model that classifies a tweet into a *Spam* or *Not Spam*. The Model is built using Keras and Scikit-Learn. Then, we put this ML Model into production as a REST API using FastAPI and Cassandra.
+This is a Machine Learning project for building a custom Spam Classifier Model that classifies a tweet into *Spam* or *Not Spam*. The Model is built using Keras and Scikit-Learn. Then, we put this ML Model into production as a REST API using FastAPI and Cassandra.
 
 ## Primary Dependencies
 
