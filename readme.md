@@ -1,18 +1,16 @@
 # Building Custom ML Model As A REST API
 
-## Dependencies
+This is a Machine Learning project for building a custom Classifier Model that classifies a tweet into a *Spam* or *Not Spam*. The Model is built using Keras and Scikit-Learn. Then, we put this ML Model into production as a REST API using FastAPI and Cassandra.
+
+## Primary Dependencies
 
 Library | Purpose
 :-|:-
 Keras | Python Machine Learning library
+Scikit-Learn | Python Machine Learning library
 FastAPI | Python REST API Framework
 Cassandra DB | NoSQL Database
 Astra DB | Cloud-Service for Cassandra DB
-
-## Reference Code
-
-- [Production Code (Updated Overtime)](https://github.com/codingforentrepreneurs/AI-as-an-API)
-- [Course Reference (Course Specific)](https://github.com/codingforentrepreneurs/AI-as-an-API-Course-Reference)
 
 ## Configuration
 
