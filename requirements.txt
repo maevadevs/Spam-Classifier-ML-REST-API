@@ -5,6 +5,7 @@ jupyter
 pandas
 pypyr
 python-dotenv
+sklearn
 tensorflow
 uvicorn
 validators

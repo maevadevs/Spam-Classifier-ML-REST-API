@@ -18,7 +18,7 @@ Astra DB | Cloud-Service for Cassandra DB
 
 - Conda Env: `ml_as_api_proj`
   - Python 3.9
-- Requirements: `python -m pip install -r requirements.txt`
+  - Requirements: `python -m pip install -r requirements.txt`
 
 ## Datasets
 
