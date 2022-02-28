@@ -14,7 +14,7 @@ Astra DB | Cloud-Service for Cassandra DB
 
 ## Configuration
 
-- Conda Env: `proj_spam_classifier_api`
+- Conda Env: `proj_spam_classifier_ml_rest_api`
   - Python 3.9
   - Requirements: `python -m pip install -r requirements.txt`
 
